@@ -140,5 +140,3 @@ After fine-tuning the model, the following evaluation metrics were obtained on t
 
 ---
 
-> 🧠 **Tip:** For transparent reporting, always specify dataset split, number of examples evaluated, and metric computation details (e.g., stemming, tokenization policy).
-
