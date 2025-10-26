@@ -14,6 +14,33 @@ It’s designed for reproducibility, efficiency, and clarity — perfect for dom
 - 📊 Automatic evaluation with **ROUGE**, **BLEU** and **BertScore**    
 
 ---
+## 📘 Documentation
+
+**License:** [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0)
+
+**Fine-tuned From Model:** [`unsloth/llama-3.2-3b-instruct-unsloth-bnb-4bit`](https://huggingface.co/unsloth/llama-3.2-3b-instruct-unsloth-bnb-4bit)
+
+---
+
+### 🧠 Overview
+
+This Llama-based model was **fine-tuned using Unsloth** — an optimized backend for efficient parameter-efficient fine-tuning (LoRA / QLoRA).  
+It was trained with **Hugging Face’s TRL (Transformer Reinforcement Learning) library**, enabling instruction-based supervised fine-tuning at scale.
+
+🚀 **Training Efficiency:**  
+> The model was trained **2× faster** than standard methods due to Unsloth’s accelerated optimization and memory-efficient quantization pipeline.
+
+---
+
+### 🧩 Key Highlights
+
+- ⚡ **Optimized with Unsloth** — leverages 4-bit quantization and fused attention for reduced training time and VRAM usage.  
+- 🧠 **Fine-tuned via TRL** — integrates seamlessly with Hugging Face’s `SFTTrainer` for supervised instruction learning.  
+- 🔒 **License:** Apache-2.0 — allowing open adaptation and research use.  
+- 💾 **Base Model:** `unsloth/llama-3.2-3b-instruct-unsloth-bnb-4bit` — pre-quantized and optimized for low-resource fine-tuning environments.
+
+---
+
 ### ⚙️ Installation Guide
 Use the following code to install the dependencies 
 ```
