@@ -18,26 +18,37 @@ It’s designed for reproducibility, efficiency, and clarity — perfect for dom
 
 **License:** [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
-**Fine-tuned From Model:** [`unsloth/llama-3.2-3b-instruct-unsloth-bnb-4bit`](https://huggingface.co/unsloth/llama-3.2-3b-instruct-unsloth-bnb-4bit)
+**Pre-trained Model:** [`unsloth/llama-3.2-3b-instruct-unsloth-bnb-4bit`](https://huggingface.co/unsloth/llama-3.2-3b-instruct-unsloth-bnb-4bit)
+
+**Fine-tuned Model Repository:** [`woahmef/UIU_AIMScribe_Llama-3.2_model`](https://huggingface.co/woahmef/UIU_AIMScribe_Llama-3.2_model)
 
 ---
 
 ### 🧠 Overview
 
-This Llama-based model was **fine-tuned using Unsloth** — an optimized backend for efficient parameter-efficient fine-tuning (LoRA / QLoRA).  
-It was trained with **Hugging Face’s TRL (Transformer Reinforcement Learning) library**, enabling instruction-based supervised fine-tuning at scale.
+The **UIU_AIMScribe_Llama-3.2_model** is a fine-tuned variant of Llama-3.2-3B developed for the  
+**AIMScribe Clinical Assistance Project**. It was fine-tuned using the **Unsloth** optimization framework and **Hugging Face’s TRL** library for efficient, instruction-based supervised fine-tuning.
 
 🚀 **Training Efficiency:**  
-> The model was trained **2× faster** than standard methods due to Unsloth’s accelerated optimization and memory-efficient quantization pipeline.
+> The model was trained **2× faster** than traditional methods thanks to Unsloth’s accelerated adapter optimization and memory-efficient quantization.
 
 ---
 
 ### 🧩 Key Highlights
 
-- ⚡ **Optimized with Unsloth** — leverages 4-bit quantization and fused attention for reduced training time and VRAM usage.  
-- 🧠 **Fine-tuned via TRL** — integrates seamlessly with Hugging Face’s `SFTTrainer` for supervised instruction learning.  
-- 🔒 **License:** Apache-2.0 — allowing open adaptation and research use.  
-- 💾 **Base Model:** `unsloth/llama-3.2-3b-instruct-unsloth-bnb-4bit` — pre-quantized and optimized for low-resource fine-tuning environments.
+- ⚡ **Optimized with Unsloth** — Enables 4-bit quantization and fused attention to significantly reduce VRAM usage while maintaining accuracy.  
+- 🧠 **Fine-tuned via TRL** — Uses Hugging Face’s `SFTTrainer` for instruction-based supervised fine-tuning (SFT).  
+- 🔒 **License:** Apache-2.0 — Permits open research, modification, and redistribution with attribution.  
+- 💾 **Base Model:** `unsloth/llama-3.2-3b-instruct-unsloth-bnb-4bit` — an optimized Llama variant designed for low-resource fine-tuning.  
+- 🌐 **Hosted Model:** [`woahmef/UIU_AIMScribe_Llama-3.2_model`](https://huggingface.co/woahmef/UIU_AIMScribe_Llama-3.2_model) — available publicly on Hugging Face Hub.
+
+---
+
+### 🩺 Use Case
+
+This model is fine-tuned for **real-time clinical documentation and context-aware SOAP note generation** in the **AIMScribe system**.  
+It is capable of understanding mixed Bangla-English conversations and generating structured medical summaries aligned with EHR contexts.
+
 
 ---
 
